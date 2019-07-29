@@ -1,0 +1,70 @@
+*{
+		margin:0;
+}	
+.menu-dis table{
+			
+		}
+ul li a{
+	text-decoration: none;
+	color: white;
+	text-transform: capitalize;
+}
+.cover:before,
+.cover:after{
+	display: block;
+	clear:both;
+	content:'';
+}
+.class{
+	flex: 0 0 33.33%;
+	max-width: 12.33%;
+	background-color:white;
+	color:black;
+	position:relative;
+	left:381px;
+	margin:12px;
+	text-align:center;
+	
+	
+}
+.class .dis{
+	height:50px;
+}
+.class .dis {
+	padding-top:15px;
+}
+.class .dis label{
+	text-transform: capitalize;
+} 
+.class p{
+	height:140px;
+}
+.class .button a{
+	text-transform: capitalize;
+	text-decoration:none;
+	color:white;
+	
+}
+.class .button{
+	background-color:black;
+	height:30px;
+	padding-top:6px;
+	
+}
+
+.min-header{
+	display: flex;
+	flex-wrap: wrap;
+	padding:15px 15px;
+}
+.cover img{
+	border:3px solid black;
+}
+.cover{
+	padding-left:400px;
+	padding-top:80px;
+}
+.min-class{
+	border: 1px solid black;
+	
+}

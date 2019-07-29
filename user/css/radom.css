@@ -1,0 +1,17 @@
+display: flex;
+	flex-wrap: wrap;
+	.min-header{
+	height:300px;
+	position:relative;
+	left:390px;
+	top:50px;
+	
+}
+.class{
+	float:left;
+	width:200px;
+	height:230px;
+	background-color:white;
+	color:black;
+	margin-left:10px;
+	margin-right:10px;
