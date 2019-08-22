@@ -1,12 +1,45 @@
+.bcontainer{
+	display:flex;
+	flex-wrap: wrap;
+	/*margin:80px;*/
+}
+.bcontainer:before,
+.bcontainer:after{
+	clear: both;
+	display: block;
+	content:'';
+}
+.body{
+	height:501px;
+}
+.right-wapper:before,
+.right-wapper:after{
+	clear: both;
+	display: block;
+	content:'';
+}
 .left{
-	height:525px;
+	height:530px;
 	width:200px;
 	position:relative;
-	left:330px;
-	top: 1px;
+	top: -60px;
+	left:470px;
 	border: 1px solid white;
-	padding:0px 8px;
+	background-color:black;
 	
+	
+}
+.left-wapper{
+	flex: 0 0 50%;
+	max-width: 50%;	
+	height: 300px;
+	width: 50%;
+}
+.right-wapper{
+	flex: 0 0 50%;
+	max-width: 50%;	
+	height: 300px;
+	width: 50%;
 }
 .left ul li{
 	list-style:none; 
@@ -30,25 +63,67 @@
 	padding-top:15px;
 	padding-left: 5px;
 }
-.left-wapper:before,
-.left-wapper:after{
-	content:'';
-	display:block;
-	clear:both;
+.left .foodlover{
+	text-align:center;
 }
-.right:before,
-.right:left{
-	content:'';
-	display:block;
-	clear:both;
-}
-
-.left-wapper{
-	float:left;
-	width:40%;
+.left ul span {
+	position:absolute;
+	left:100px;
 	
 }
+.image{	height:145px;
+		width:198px;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		position:relative;
+		top:35px;
+		border:1px solid white;
+}
 .right{
-	float:left;
-	width:60%;
+	margin-top:-25px;
+	margin-left:60px;
+	height:500px;
+	width:580px;
+	border: 1px solid white;
+	background-color:black;
+	
+}
+
+.map iframe{
+	padding-left:40px;
+	padding-top:10px;
+
+}
+.contact-form label {
+    display: block;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.contact-form input, .contact-form textarea {
+	width: 60%;
+	padding: 4px 10px;
+	border-radius: 42px;
+	outline: 0;
+	border: 1px solid #eee;
+	font-weight: 500;
+	font-size: 16px;
+	font-family: 'poppins';
+	margin: 2px;
+}
+.contact-form-wrapper form{
+	padding-left: 35px;
+}
+.contact-form-wrapper h2 {
+	padding-left: 110px;
+}
+.contact-form-wrapper .input-submit input{
+	height:25px;
+	width:80px;
+	padding-top: 0px;
+}
+.contact-form-wrapper .input-submit{
+	padding-left:125px;
 }

@@ -8,23 +8,22 @@
 
 }
 .content-wapper{
-	flex: 0 0 25%;
-	max-width: 25%;
-	background-image:url('../pic/menu-background.png');
+	flex: 0 0 15%;
+	max-width: 15%;
+	background-image:url('../pic/balack.png');
 	border:1px solid;
 	
 }
 .click-wapper{
-	flex: 0 0 50%;
-	max-width: 50%;
-	background-image:url('../pic/menu-background.png');
+	flex: 0 0 64%;
+	max-width: 64%;
+	background-image:url('../pic/black.png');
 	background-repeat: no-repeat;
 	border:1px solid;
 }
 .pic-wapper{
-	flex: 0 0 25%;
-	max-width: 25%;
-	background-image:url('../pic/menu-background.png');
+	flex: 0 0 21%;
+	max-width: 21%;
 	border:1px solid;	
 	
 }
@@ -36,7 +35,10 @@
 }
 .image{
 	height: 130px;
-	width: 220px;
+	width: 190px;
+}
+.content ol{
+	padding: 0px;
 }
 .content ol li{
 	list-style:none;
@@ -44,20 +46,9 @@
 .confirm {
 	height:52px;
 	padding-top:15px;
-	padding-left:45px;
+	padding-left:65px;
 	
 }
 .confirm input{
 	font-size:13pt;
-}
-.food{
-	border:1px solid;
-}
-#click table tr th:last-child{
-	width: 50%;
-	text-align: right;
-}
-#click{
-	width:80%;
-	margin: 10px auto;
 }

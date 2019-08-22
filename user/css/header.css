@@ -6,8 +6,12 @@
 *{
 	font-family:sans-serif;
 	box-sizing: border-box;
+	margin: 0;
 	
 			}
+.head{
+	height:140px;
+}
 .clearfix:after,
 .clearfix:before{
 	content: '';
@@ -44,4 +48,4 @@
 ul li a{
 	text-decoration: none;
 	color: white;
-	text-transform: capitalize;
+	text-transform: capitalize;	
