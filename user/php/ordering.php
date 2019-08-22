@@ -32,37 +32,37 @@
 		</div>
 		</div>
 </div>		
-			<form action='' method='POST'>
-<div class='main'>
+			<form action='bill.php' method='POST'>
+			<div class='main'>
 	<div class='content-wapper'>
 		<div class='content'>
 				<ol>
 					<li>
-						<input type='button' name='VEG-snacks' value='VEG-snacks' onclick='showCustomer(this);'/>
+						<label onclick='showCustomer(this);'>VEG-snacks</label>
 					</li>
 					<li>
-						<input type='button' name='NON-VEG-snacks' value='NON-VEG-snacks' onclick='showCustomer(this);'/>
+						<label onclick='showCustomer(this);'>NON-VEG-snacks</label>
 					</li>
 					<li>
-						<input type='button' name='PIZZA' value='PIZZA' onclick='showCustomer(this);'/>
+						<label onclick='showCustomer(this);'>PIZZA</label>
 					</li>
 					<li>
-						<input type='button' name='CHOWMIN' value='CHOWMIN' onclick='showCustomer(this);'/>
+						<label onclick='showCustomer(this);'>CHOWMIN</label>
 					</li>
 					<li>
-						<input type='button' name='MOMO' value='MOMO' onclick='showCustomer(this);'/>
+						<label onclick='showCustomer(this);'>MOMO</label>
 					</li>
 					<li>
-						<input type='button' name='CHOPUEY' value='CHOPUEY' onclick='showCustomer(this);'/>
+						<label onclick='showCustomer(this);'>CHOPUEY</label>
 					</li>
 					<li>
-						<input type='button' name='THUKPA' value='THUKPA' onclick='showCustomer(this);'/>
+						<label onclick='showCustomer(this);'>THUKPA</label>
 					</li>
 					<li>
-						<input type='button' name='SEKUWA' value='SEKUWA' onclick='showCustomer(this);'/>
+						<label onclick='showCustomer(this);'>SEKUWA</label>
 					</li>
 					<li>
-						<input type='button' name='COLD BEVERAGE' value='COLD BEVERAGE' onclick='showCustomer(this);'/>
+						<label onclick='showCustomer(this);'>COLD BEVERAGE</label>
 					</li>
 				</ol>	
 					
@@ -70,7 +70,7 @@
 	</div>	
 	<div class='click-wapper'>
 		<div class='wapper'>
-			<div id='click'></div>		
+			<div id='click'></div>
 		</div>
 	</div>
 	<div class='pic-wapper'>
@@ -83,7 +83,7 @@
 			</div>
 		</div>
 		<div class='confirm'>
-			<input type='button' name='submit' value='Confirm' onclick='showbill(this);'/>
+			<input type='submit' name='submit' value='Confirm'/>
 		</div>
 	</div>
 		
@@ -93,7 +93,7 @@
 	<script>
 	function showCustomer(control) {
 	  var xhttp;
-		category=control.value;
+		category=control.innerHTML;
 	  if (category == "") {
 		document.getElementById("click").innerHTML = "abc";
 		return;
@@ -120,7 +120,7 @@
 		  document.getElementById("click").innerHTML = this.responseText;
 		}
 	  };
-	  xhttp.open("GET", "getodering.php?category="+category, true);
+	  xhttp.open("GET", "getbill.php?category="+category, true);
 	  xhttp.send();
 	}
 	</script>

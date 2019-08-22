@@ -13,13 +13,17 @@ echo "<div class='item'><table><tr>
 while($arr=mysqli_fetch_assoc($data))
 {
 	$a=$arr['menuitem'];
+	$b=$arr['price'];
 	echo "<tr>";
 	echo "<td>".$arr['menuitem']."</td>";
-	echo "<td>".$arr['price']."</td>";
-	echo "<td><input type='checkbox' name='menu' value='$a'/></td>";
-	echo "<td><input type='number' name='quantity'/></td>";
+	echo "<td value='$b'>".$arr['price']."</td>";
+	echo "<td><input type='checkbox' name='menu[]' value='$a'/></td>";
+	echo "<td><select name='quantity'>";
+	for($i=0;$i<=10;$i++)
+		echo "<option value='$i'>".$i."</option>";
 	echo "</tr>";
 }
-echo "</table></div>";
+echo "</table>"; 
+	echo "</div>";
 
 ?>

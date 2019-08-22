@@ -32,35 +32,15 @@
 		</div>
 		</div>
 		</div>
-<div class='body'>
-	<div class='bill-wapper'>
-		<div class='bill'>
-			<div class='bill-header'>
-				<table border=1>
-					<tr>
-						<th>NAME</th>
-						<th>ITEMS</th>
-						<th>PRICE</th>
-					</tr>	
-				</div>
-			<div class='bill-body'>
-				<tr>
-					<td><td>
-					<td><td>
-					<td><td>
-				</tr>	
-			</div>
-			<div class='bill-footer'>
-				<tr>
-					<td>TOTAL</td>
-					<td></td>
-					<td></td>
-				</tr>
-			</div>
+		<div>
+		<?php 
+			$a=$_POST['quantity'];
+			$b =array($_POST['menu']);
+			$select
+			echo $a;
+			print_r($b);
+		?>
 		</div>
-	
-	</div>
-</div>
 	
 
 <footer>
