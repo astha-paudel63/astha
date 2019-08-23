@@ -1,21 +1,21 @@
 <?php
-	$menu=array('home'=>'Home','menu'=>'menu','ordering'=>'order online','blog'=>'blog','contact'=>'contact');
+	$menu=array('home'=>'Home','menu'=>'menu','register'=>'order online','blog'=>'blog','contact'=>'contact');
 ?>
 <!DOCTYPE html>
 <html>
 <head>
 	<title>web desgin</title>
-	<link rel="stylesheet" href="../css/header.css" type="text/css"/>
-	<link rel="stylesheet" href="../css/footer.css" type="text/css"/>
-	<link rel="stylesheet" href="../css/menu.css" type="text/css"/>
-	<link rel="stylesheet" href="../css/fontAwesome/css/font-awesome.css" type="text/css"/>
+	<link rel="stylesheet" href="user/css/header.css" type="text/css"/>
+	<link rel="stylesheet" href="user/css/footer.css" type="text/css"/>
+	<link rel="stylesheet" href="user/css/menu.css" type="text/css"/>
+	<link rel="stylesheet" href="user/css/fontAwesome/css/font-awesome.css" type="text/css"/>
 	
 </head>
 <body>
 <div class='head'>
 	<div class='header-wrapper'>
 		<div class='header clearfix'>	
-				<div class="logo" style="background-image:url(foodlover.png)">
+				<div class="logo" style="background-image:url('user/pic/foodlover.png')">
 				</div>
 			<div class='nav-menu'>
 				<ul>
@@ -32,16 +32,16 @@
 		</div>
 		</div>
 </div>		
-			<form action='ordering.php' method='POST'>
+			<form action='register.php' method='POST'>
 				
 <div class='main'>
 	<div class='content-wapper'>
 		<div class='content'>
-		<div class="image" style="background-image:url('../pic/menu1.png')">
+		<div class="image" style="background-image:url('user/pic/menu1.png')">
 			</div>
-			<div class="image" style="background-image:url('../pic/menu2.png')">
+			<div class="image" style="background-image:url('user/pic/menu2.png')">
 			</div>
-			<div class="image" style="background-image:url('../pic/menu3.png')">
+			<div class="image" style="background-image:url('user/pic/menu3.png')">
 			</div>
 		</div>
 	</div>	
@@ -63,11 +63,11 @@
 	</div>
 	<div class='pic-wapper'>
 		<div class='pic'>
-			<div class="image" style="background-image:url('../pic/menu4.png')">
+			<div class="image" style="background-image:url('user/pic/menu4.png')">
 			</div>
-			<div class="image" style="background-image:url('../pic/menu5.png')">
+			<div class="image" style="background-image:url('user/pic/menu5.png')">
 			</div>
-			<div class="image" style="background-image:url('../pic/menu6.png')">
+			<div class="image" style="background-image:url('user/pic/menu6.png')">
 			</div>
 		</div>
 		<div class='confirm'>

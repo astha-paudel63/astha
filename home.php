@@ -1,20 +1,20 @@
 <?php
-	$menu=array('home'=>'Home','menu'=>'menu','ordering'=>'order online','blog'=>'blog','contact'=>'contact');
+	$menu=array('home'=>'Home','menu'=>'menu','register'=>'order online','blog'=>'blog','contact'=>'contact');
 ?>
 <!DOCTYPE html>
 <html>
 <head>
 	<title>web desgin</title>
-	<link rel="stylesheet" href="../css/header.css" type="text/css"/>
-	<link rel="stylesheet" href="../css/home.css" type="text/css"/>
-	<link rel="stylesheet" href="../css/footer.css" type="text/css"/>
-	<link rel="stylesheet" href="../css/fontAwesome/css/font-awesome.css" type="text/css"/>
+	<link rel="stylesheet" href="user/css/header.css" type="text/css"/>
+	<link rel="stylesheet" href="user/css/home.css" type="text/css"/>
+	<link rel="stylesheet" href="user/css/footer.css" type="text/css"/>
+	<link rel="stylesheet" href="user/css/fontAwesome/css/font-awesome.css" type="text/css"/>
 	
 </head>
 <body>
 	<div class='header-wrapper'>
 		<div class='header clearfix'>	
-				<div class="logo" style="background-image:url(foodlover.png)">
+				<div class="logo" style="background-image:url('user/pic/foodlover.png')">
 				</div>
 			<div class='nav-menu'>
 				<ul>
@@ -32,7 +32,7 @@
 		</div>
 	<div class='body'>
 			<div class='cover'>
-				<img src='../pic/merlin.jpg' alt='food' height='300' width='550' />
+				<img src='user/pic/merlin.jpg' alt='food' height='300' width='550' />
 			</div>
 			<div class='min-header'>
 				<div class='class'>

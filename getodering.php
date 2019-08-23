@@ -14,11 +14,12 @@ while($arr=mysqli_fetch_assoc($data))
 {
 	$a=$arr['menuitem'];
 	$b=$arr['price'];
+	$c = $arr['menuID'];
 	echo "<tr>";
 	echo "<td>".$arr['menuitem']."</td>";
 	echo "<td value='$b'>".$arr['price']."</td>";
-	echo "<td><input type='checkbox' name='menu[]' value='$a'/></td>";
-	echo "<td><select name='quantity'>";
+	echo "<td><input type='checkbox' name='menu[]' value='$c'/></td>";
+	echo "<td><select name='quantity[]'>";
 	for($i=0;$i<=10;$i++)
 		echo "<option value='$i'>".$i."</option>";
 	echo "</tr>";

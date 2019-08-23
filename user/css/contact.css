@@ -1,7 +1,7 @@
 .bcontainer{
 	display:flex;
 	flex-wrap: wrap;
-	/*margin:80px;*/
+	
 }
 .bcontainer:before,
 .bcontainer:after{
@@ -126,4 +126,12 @@
 }
 .contact-form-wrapper .input-submit{
 	padding-left:125px;
+}
+.right .image1{
+	width:400px;
+	height:150px;
+	position:relative;
+	top:70px;
+	left:75px;
+	border:1px solid white;
 }

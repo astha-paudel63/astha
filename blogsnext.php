@@ -1,20 +1,20 @@
 <?php
-	$menu=array('home'=>'Home','menu'=>'menu','ordering'=>'order online','blog'=>'blog','contact'=>'contact');
+	$menu=array('home'=>'Home','menu'=>'menu','register'=>'order online','blog'=>'blog','contact'=>'contact');
 ?>
 <!DOCTYPE html>
 <html>
 <head>
 	<title>web desgin</title>
-	<link rel="stylesheet" href="../css/header.css" type="text/css"/>
-	<link rel="stylesheet" href="../css/footer.css" type="text/css"/>
-	<link rel="stylesheet" href="../css/blogs.css" type="text/css"/>
-	<link rel="stylesheet" href="../css/fontAwesome/css/font-awesome.css" type="text/css"/>
+	<link rel="stylesheet" href="user/css/header.css" type="text/css"/>
+	<link rel="stylesheet" href="user/css/footer.css" type="text/css"/>
+	<link rel="stylesheet" href="user/css/blogs.css" type="text/css"/>
+	<link rel="stylesheet" href="user/css/fontAwesome/css/font-awesome.css" type="text/css"/>
 	
 </head>
 <body>
 	<div class='header-wrapper'>
 		<div class='header clearfix'>	
-				<div class="logo" style="background-image:url(foodlover.png)">
+				<div class="logo" style="background-image:url('user/php/foodlover.png')">
 				</div>
 			<div class='nav-menu'>
 				<ul>
@@ -33,7 +33,7 @@
 <div class="blogs">
 			<div class="container">
 				<div class="description">
-					<div class="image" style="background-image:url('../pic/old-fashioned-meat-loaf.jpg')">
+					<div class="image" style="background-image:url('user/pic/old-fashioned-meat-loaf.jpg')">
 					</div>
 					<div class="detail">
 						<h2> Old-fashioned Meatloaf </h2>
@@ -43,7 +43,7 @@
 					</div>
 				</div>
 				<div class="description">
-					<div class="image" style="background-image:url('../pic/stew.jpg')">
+					<div class="image" style="background-image:url('user/pic/stew.jpg')">
 					</div>
 					<div class="detail">
 						<h2>Curried Lentil-and-Vegetable Stew</h2>
@@ -53,7 +53,7 @@
 					</div>
 				</div>
 				<div class="description">
-					<div class="image" style="background-image:url('../pic/v-wkvegmar0501-1leadweb.jpg')">
+					<div class="image" style="background-image:url('user/pic/v-wkvegmar0501-1leadweb.jpg')">
 					</div>
 					<div class="detail">
 						<h2>Pulled Chicken Sandwiches</h2>
@@ -63,7 +63,7 @@
 					</div>
 				</div>
 				<div class="description">
-					<div class="image" style="background-image:url('../pic/omelete.jpg')">
+					<div class="image" style="background-image:url('user/pic/omelete.jpg')">
 					</div>
 					<div class="detail">
 						<h2> Cheeseburger Omelet </h2>

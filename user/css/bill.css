@@ -1,0 +1,17 @@
+.bill-wapper{
+	height:394px;
+}
+.bill{
+	height:300px;
+	background:black;
+	width:60%;
+	margin-left:348px;
+	margin-top:50px;
+	padding-top: 95px;
+	padding-left: 160px;
+
+} 
+
+.total{
+	padding:35px;
+}

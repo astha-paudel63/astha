@@ -1,14 +1,14 @@
 <?php
-	$menu=array('home'=>'Home','menu'=>'menu','ordering'=>'order online','blog'=>'blog','contact'=>'contact');
+	$menu=array('home'=>'Home','menu'=>'menu','register'=>'order online','blog'=>'blog','contact'=>'contact');
 ?>
 <!DOCTYPE html>
 <html>
 <head>
 	<title>web desgin</title>
-	<link rel="stylesheet" href="../css/header.css" type="text/css"/>
-	<link rel="stylesheet" href="../css/footer.css" type="text/css"/>
-	<link rel="stylesheet" href="../css/ordering.css" type="text/css"/>
-	<link rel="stylesheet" href="../css/fontAwesome/css/font-awesome.css" type="text/css"/>
+	<link rel="stylesheet" href="user/css/header.css" type="text/css"/>
+	<link rel="stylesheet" href="user/css/footer.css" type="text/css"/>
+	<link rel="stylesheet" href="user/css/ordering.css" type="text/css"/>
+	<link rel="stylesheet" href="user/css/fontAwesome/css/font-awesome.css" type="text/css"/>
 	
 </head>
 <body>
@@ -75,11 +75,11 @@
 	</div>
 	<div class='pic-wapper'>
 		<div class='pic'>
-			<div class="image" style="background-image:url('../pic/order1.png')">
+			<div class="image" style="background-image:url('user/pic/order1.png')">
 			</div>
-			<div class="image" style="background-image:url('../pic/order2.png')">
+			<div class="image" style="background-image:url('user/pic/order2.png')">
 			</div>
-			<div class="image" style="background-image:url('../pic/order3.png')">
+			<div class="image" style="background-image:url('user/pic/order3.png')">
 			</div>
 		</div>
 		<div class='confirm'>

@@ -1,0 +1,16 @@
+.login-form{
+	height:394px;
+}
+.login-form .login-form-wrapper{
+	height: 200px;
+	width: 40%;
+	background: black;
+	margin-left: 423px;
+	margin-top: 50px;
+	padding-top: 3px;
+	padding-left: 85px;
+	
+}
+.login-form .login-form-wrapper h3{
+	padding:20px;
+}

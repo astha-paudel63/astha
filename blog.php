@@ -1,20 +1,20 @@
 <?php
-	$menu=array('home'=>'Home','menu'=>'menu','ordering'=>'order online','blog'=>'blog','contact'=>'contact');
+	$menu=array('home'=>'Home','menu'=>'menu','register'=>'order online','blog'=>'blog','contact'=>'contact');
 ?>
 <!DOCTYPE html>
 <html>
 <head>
 	<title>web desgin</title>
-	<link rel="stylesheet" href="../css/header.css" type="text/css"/>
-	<link rel="stylesheet" href="../css/footer.css" type="text/css"/>
-	<link rel="stylesheet" href="../css/blogs.css" type="text/css"/>
-	<link rel="stylesheet" href="../css/fontAwesome/css/font-awesome.css" type="text/css"/>
+	<link rel="stylesheet" href="user/css/header.css" type="text/css"/>
+	<link rel="stylesheet" href="user/css/footer.css" type="text/css"/>
+	<link rel="stylesheet" href="user/css/blogs.css" type="text/css"/>
+	<link rel="stylesheet" href="user/css/fontAwesome/css/font-awesome.css" type="text/css"/>
 	
 </head>
 <body>
 	<div class='header-wrapper'>
 		<div class='header clearfix'>	
-				<div class="logo" style="background-image:url(foodlover.png)">
+				<div class="logo" style="background-image:url('user/pic/foodlover.png')">
 				</div>
 			<div class='nav-menu'>
 				<ul>
@@ -33,7 +33,7 @@
 <div class="blogs">
 			<div class="container">
 				<div class="description">
-					<div class="image" style="background-image:url('../pic/raspberry-layer-cake-dixie.jpg')">
+					<div class="image" style="background-image:url('user/pic/raspberry-layer-cake-dixie.jpg')">
 					</div>
 					<div class="detail">
 						<h2>Fresh Corn Cake with Raspberries </h2>
@@ -43,7 +43,7 @@
 					</div>
 				</div>
 				<div class="description">
-					<div class="image" style="background-image:url('../pic/image.jpg')">
+					<div class="image" style="background-image:url('user/pic/image.jpg')">
 					</div>
 					<div class="detail">
 						<h2> Miso Caramel-Apple Pie</h2>
@@ -53,7 +53,7 @@
 					</div>
 				</div>
 				<div class="description">
-					<div class="image" style="background-image:url('../pic/soup.jpg')">
+					<div class="image" style="background-image:url('user/pic/soup.jpg')">
 					</div>
 					<div class="detail">
 						<h2>One-Hour Spanish Chickpea Soup </h2>
@@ -63,7 +63,7 @@
 					</div>
 				</div>
 				<div class="description">
-					<div class="image" style="background-image:url('../pic/pork.jpg')">
+					<div class="image" style="background-image:url('user/pic/pork.jpg')">
 					</div>
 					<div class="detail">
 						<h2> Slow-Cooked BBQ Pork Roast </h2>

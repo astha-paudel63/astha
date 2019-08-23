@@ -52,3 +52,9 @@
 .confirm input{
 	font-size:13pt;
 }
+.content ol li{
+	padding: 5px 0;
+}
+.content ol li label{
+	cursor: pointer;
+}
